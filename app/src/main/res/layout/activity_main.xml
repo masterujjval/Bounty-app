@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the app created by UG"
+        android:textStyle="bold"
+        android:textColor=" #c144e2"
+        android:textSize="24sp"
+        android:layout_marginTop="6dp"
+        android:padding="6dp"
+        android:layout_gravity="center"
+        />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:src="@drawable/pfp"
+    android:layout_margin="20dp"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pheew pheew"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:backgroundTint="#ee6161"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter target name "
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="Enter the bounty $ "
+        android:inputType="number"
+        android:layout_marginTop="6dp"
+/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+android:text="Start The Hunt!"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="  #f07070  "
+        android:backgroundTint=" #000000 "
+
+
+        />
+
+</LinearLayout>
